@@ -46,7 +46,7 @@ Results describe this map and setup. The tool uses native attack orders without 
 
 ## Compatibility and verification
 
-Tested on Windows with Warcraft III client `3.0.0.24268` using classic graphics. The stock demo, side swaps, timeout/cleanup stress run, and a custom-unit comparison ran in game. The `Bench Footman` was selected during combat and displayed 840 maximum HP. The custom map also reopened in World Editor. Older game versions, Reforged HD graphics, arbitrary existing maps, and multiplayer have not been verified. See [TEST-RESULTS.md](Docs/TEST-RESULTS.md) for exact observations.
+Tested on Windows with Warcraft III client `3.0.0.24268` using classic graphics. The stock demo, side swaps, timeout/cleanup stress run, custom-unit comparison, and manual import into a fresh Lua map ran in game. The fresh map completed two rounds and repeated its report; both rounds timed out with one survivor per side. The `Bench Footman` was selected during combat and displayed 840 maximum HP. The custom map also reopened in World Editor. Older game versions, Reforged HD graphics, arbitrary existing maps, and multiplayer have not been verified. See [TEST-RESULTS.md](Docs/TEST-RESULTS.md) for exact observations.
 
 ## Development
 
