@@ -4,6 +4,8 @@ Repeat a Warcraft III unit matchup, alternate starting sides, and read the resul
 
 WC3 Balance Bench is a Lua tool for mapmakers testing ordinary combat units. Configure one unit type and count per team, start a batch with a chat command, then change an Object Editor stat and run the same scenario again with a new label. Battles use the Warcraft III engine; the tool does not calculate a theoretical winner or recommend balance changes.
 
+![Balance Bench demo showing Footmen and Grunts fighting during a test run](Docs/BalanceBenchPreview.png)
+
 ## What it does
 
 - Runs an even number of rounds, 20 by default, in a dedicated flat arena.
