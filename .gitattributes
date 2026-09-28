@@ -1,0 +1,8 @@
+*.w3m binary
+*.w3x binary
+*.w3i binary
+*.wtg binary
+*.w3l binary
+*.lua text eol=lf
+*.py text eol=lf
+*.md text eol=lf

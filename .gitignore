@@ -1,0 +1,4 @@
+/Build/
+__pycache__/
+*.pyc
+*.w3mTemp/
