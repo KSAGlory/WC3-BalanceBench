@@ -28,7 +28,7 @@ The default demo is 3 Footmen against 2 Grunts for 20 rounds, with a 60-second t
 
 ## Use in a Lua map
 
-1. Work on a development copy of your map. Reserve active player slots 0 and 1, with player 0 issuing the chat commands, and provide a clear arena. Disable melee initialization and other systems that could add units or interfere with the fight.
+1. Work on a development copy of your map. For a new map, open **Scenario > Map Options** and change **Script Language** from JASS to Lua. Reserve active player slots 0 and 1, with player 0 issuing the chat commands, and provide a clear arena. Disable melee initialization and other systems that could add units or interfere with the fight.
 2. In World Editor's Lua map header custom script, paste `Scripts/BalanceBench.lua`, followed by `Scripts/ExampleConfig.lua`. Keep this order.
 3. Edit `BalanceBenchConfig`: choose a scenario and label, set four-character unit rawcodes and counts, and fit the arena coordinates to your map. The demo config accepts up to 24 units per team and up to 100 even-numbered rounds.
 4. In a Map Initialization trigger, call `BalanceBenchDemoSetup()` after the script definitions are available. The example setup makes player slots 0 and 1 hostile and calls `BalanceBench.install(BalanceBenchConfig)`. Use that setup only if those slots are dedicated to the test; the runner itself does not change alliances or support different slots in v1.0.0.
